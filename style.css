@@ -1,0 +1,97 @@
+#div{
+    width: 100%;
+   
+    
+    display: inline-block;
+    position: absolute;
+}
+.img1{
+    width: 300%;
+   height: 600px; 
+   position: block;
+   background-repeat: repeat-x;
+   background-size: contain;
+   z-index: 4;
+   bottom: 0;
+   animation: path 4s linear infinite;
+}
+@keyframes path{
+   100%{transform: translateX(-2400px);}
+   
+}
+.img2{
+    width: 400px;
+    left: 110px;
+    position: absolute;
+    bottom: 2ch;
+    z-index: 2;
+}
+.img3{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 120px;
+    bottom: 2ch;
+    z-index: 3;
+    animation: rim 2s linear infinite;
+    backface-visibility: hidden;
+}
+.img4{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 338px;
+    bottom: 2ch;
+    z-index: 3;
+    backface-visibility: hidden;
+    animation: rim 2s linear infinite;
+    
+}
+@keyframes rim{
+    100%{transform: rotate(360deg);}
+}
+.img5{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 538px;
+    bottom: 2ch;
+    
+    z-index: 3;
+    backface-visibility: hidden;
+    animation: mo 2s linear infinite;
+    
+}
+
+  
+  
+
+.img6{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 564px;
+    bottom: 7.8ch;
+    
+    z-index: 3;
+    backface-visibility: hidden;
+    animation: w 2s linear infinite;
+    
+}
+.img7{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 814px;
+    bottom: 8ch;
+    
+    z-index: 3;
+    backface-visibility: hidden;
+    animation: w 2s linear infinite;
+    
+}
+@keyframes w{
+    100%{transform: rotate(360deg);}
+  
+  
+}
